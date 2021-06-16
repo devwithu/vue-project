@@ -2,7 +2,7 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <!-- <router-link to="/about">About</router-link> -->
-    <router-link to="/nestedcomponent">Nested Component</router-link>
+    <router-link to="/parentcomponent">Parent Component</router-link>
   </div>
   <router-view/>
 </template>

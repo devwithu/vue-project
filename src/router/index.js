@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-import NestedComponent from '../views/NestedComponent.vue'
+import ParentComponent from '../views/ParentComponent.vue'
 
 const routes = [
   {
@@ -17,9 +17,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/nestedcomponent',
-    name: 'NestedComponent',
-    component: NestedComponent
+    path: '/parentcomponent',
+    name: 'ParentComponent',
+    component: ParentComponent
   },
 ]
 
